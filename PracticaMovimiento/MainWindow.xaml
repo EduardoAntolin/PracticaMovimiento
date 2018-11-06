@@ -9,11 +9,15 @@
     <Canvas Name="miCanvas" KeyDown="miCanvas_KeyDown" Focusable="True">
         <Image Name="imgNemo"
                Source="nemo.jpg"
-               Width="90"
-               Height="90"
+               Width="84"
+               Height="74"
                Stretch="Fill" 
-               Canvas.Left="333" 
-               Canvas.Top="301">
+               Canvas.Left="367" 
+               Canvas.Top="317">
         </Image>
+        <Image Name="ImgCarro" Source="carro.png"  
+               Width="100"
+               Height="60"
+               Stretch="Fill" Canvas.Top="167" ></Image>
     </Canvas>
 </Window>

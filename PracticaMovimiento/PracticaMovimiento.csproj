@@ -94,6 +94,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="carro.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Content Include="nemo.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
